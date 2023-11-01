@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="./calculator.css">
+    <script src="./calculator.js" defer></script>
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" id="display" disabled>
+        <div class="buttons">
+            <button onclick="clearDisplay()" class="inputbuttons" id="ac">AC</button>
+            <button onclick="appendToDisplay('7')" class="inputbuttons">7</button>
+            <button onclick="appendToDisplay('8')" class="inputbuttons">8</button>
+            <button onclick="appendToDisplay('9')" class="inputbuttons">9</button>
+            <button onclick="appendToDisplay('+')" class="inputbuttons">+</button>
+            <button onclick="appendToDisplay('4')" class="inputbuttons">4</button>
+            <button onclick="appendToDisplay('5')" class="inputbuttons">5</button>
+            <button onclick="appendToDisplay('6')" class="inputbuttons">6</button>
+            <button onclick="appendToDisplay('-')" class="inputbuttons">-</button>
+            <button onclick="appendToDisplay('1')" class="inputbuttons">1</button>
+            <button onclick="appendToDisplay('2')" class="inputbuttons">2</button>
+            <button onclick="appendToDisplay('3')" class="inputbuttons">3</button>
+            <button onclick="appendToDisplay('*')" class="inputbuttons">*</button>
+            <button onclick="appendToDisplay('0')" class="inputbuttons">0</button>
+            <button onclick="appendToDisplay('.')" class="inputbuttons">.</button>
+            <button onclick="calculateResult()"  class="inputbuttons">=</button>
+            <button onclick="appendToDisplay('/')" class="inputbuttons">/</button>
+        </div>
+    </div>
+    
+</body>
+</html>
